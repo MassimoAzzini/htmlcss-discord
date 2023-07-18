@@ -35,8 +35,8 @@ footer {
 
 /* HEIGHT-DEBUG da eliminare */
 
-.container .boxed-img,
-.container .boxed-txt {
+.container .column-img,
+.container .column-txt {
   height: 400px;
 }
 
@@ -153,17 +153,17 @@ main section {
   padding: 120px 0;
 }
 
-.boxed-img {
+.column-img {
   background-color: dodgerblue;
   width: 60%;
 }
 
-.boxed-txt {
+.column-txt {
   background-color: darkkhaki;
   width: 40%;
 }
 
-.txt-up .container {
+section:last-child .container {
   background-color: green;
 }
 /* fine MAIN */
