@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 20px;
+}
+
 header, 
 footer {
   color: white;
@@ -16,12 +20,12 @@ body {
 
 footer {
   background-color: #23272a;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .container {
   max-width: 1200px;
-  width: 80%;
+  width: 98%;
   margin: 0 auto;
 }
 
@@ -30,9 +34,6 @@ footer {
 }
 
 /* HEIGHT-DEBUG da eliminare */
-.b-head-container {
-  height: 200px;
-}
 
 .container .boxed-img,
 .container .boxed-txt {
@@ -50,44 +51,96 @@ footer {
 
 /* HEADER */
 header .top-header {
-  background-color: aquamarine;
-  padding: 10px 0;
+  background-color: #255ee9;
+  height: 80px;
+}
+
+header .top-header .container,
+.t-head-row {
+  height: 100%;
 }
 
 header .bottom-header {
-  background-color: blue;
+  background-color: #255ee9;
   padding: 20px 0;
 }
 
 /* top-header */
 .t-head-row {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   justify-content: space-between;
+  align-items: center;
 }
 
-header .logo,
-header .menu,
-header .login {
+header .logo {
   background-color: orange;
   border: 1px dotted black;
   padding: 5px;
 }
 
+.t-head-row nav ul {
+  list-style-type: none;
+}
+
+.t-head-row nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
 header .login {
-  text-align: right;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 /* fine top-header */
 
 /* bottom-header */
-.b-head-container {
-  background-color: blueviolet;
-  border: 1px dotted black;
-  max-width: 1000px;
-  width: 70%;
-  min-width: 450px;
-  margin: 0 auto;
+.bottom-header {
+  justify-content: center;
+  align-items: center;
 }
 
+.b-head {
+  max-width: 900px;
+  width: 90%;
+  min-width: 600px;
+  text-align: center;
+}
+
+.b-head h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.b-head p {
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.b-head a {
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  margin: 0 20px;
+}
+
+.b-head .scarica {
+  background-color: white;
+  color: black;
+}
+
+.b-head .scarica span {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.b-head .apri {
+  background-color: black;
+  color: white;
+}
 /* fine bottom-header */
 /* fine HEADER */
 
