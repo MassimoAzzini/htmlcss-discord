@@ -204,39 +204,53 @@ main section {
 
 /* FOOTER */
 .top-footer {
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding: 70px 0;
   border-bottom: 2px solid #7289da;
 }
 
-.top-footer .row > nav {
-  flex-grow: 1;
-  background-color: darkorange;
+.top-footer .footer-link {
+  width: 75%;
+  justify-content: space-between;
+}
+
+.column-link span {
+  color: #7289da;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.column-link ul {
+  list-style: none;
+}
+.column-link a {
+  color: white;
+  text-decoration: none;
+  line-height: 35px;
+
+}
+
+.top-footer .social{
+  width: 25%;
+  background-color: red;
   border: 1px dotted black;
 }
 
- .top-footer .social{
-  flex-grow: 1.5;
-  background-color: red;
-  border: 1px dotted black;
- }
-
- .bottom-footer {
+.bottom-footer {
   padding-top: 5px;
   padding-bottom: 20px;
- }
+}
 
- .bottom-footer .row {
+.bottom-footer .row {
   background-color: aquamarine;
   justify-content: space-between;
- }
+}
 
- footer .logo,
- footer .registrati {
-   background-color: darkolivegreen;
-   border: 1px dotted black;
-   padding: 5px;
- }
+footer .logo,
+footer .registrati {
+  background-color: darkolivegreen;
+  border: 1px dotted black;
+  padding: 5px;
+}
 
 /* fine FOOTER */
 
