@@ -46,13 +46,14 @@ p {
   line-height: 35px;
 }
 
-.column-img {
-  text-align: center;
+.btn-small,
+.btn-big,
+a {
+  text-decoration: none;
 }
 
 /* button */
 .btn-big{
-  text-decoration: none;
   padding: 15px 20px;
   border-radius: 30px;
 }
@@ -77,14 +78,7 @@ p {
   background-color: #7289da;
   color: white;
 }
-
 /* fine button */
-
-/* HEIGHT-DEBUG da eliminare */
-.top-footer > * {
-  height: 350px;
-}
-/* fine HEIGHT-DEBUG da eliminare */
 
 /* HEADER */
 header .top-header {
@@ -117,12 +111,7 @@ header .bottom-header {
 
 .t-head-row nav a {
   color: white;
-  text-decoration: none;
   margin: 0 20px;
-}
-
-header .btn-small {
-  text-decoration: none;
 }
 /* fine top-header */
 
@@ -139,9 +128,6 @@ header .btn-small {
   text-align: center;
 }
 
-.b-head h1 {
-}
-
 .b-head p {
   margin-bottom: 20px;
 }
@@ -149,7 +135,6 @@ header .btn-small {
 .b-head a {
   margin: 0 20px;
 }
-
 /* fine bottom-header */
 /* fine HEADER */
 
@@ -163,15 +148,19 @@ main section {
   padding-bottom: 100px;
 }
 
+/* section column img-txt */
 .column-img {
   width: 65%;
+  text-align: center;
 }
 
 .column-txt {
   width: 35%;
   padding: 25px;
 }
+/* fine section column img-txt */
 
+/* section big-central */
 .column-center {
   padding-bottom: 150px;
 }
@@ -200,9 +189,11 @@ main section {
 .column-center .img-big {
   width: 100%;
 }
+/* fine section big-central */
 /* fine MAIN */
 
 /* FOOTER */
+/* top footer */
 .top-footer {
   padding: 70px 0;
   border-bottom: 2px solid #7289da;
@@ -225,6 +216,7 @@ footer .column-link span,
 
 .social #bandiera {
   width: 25px;
+  vertical-align: middle;
 }
 
 .top-footer .footer-link {
@@ -241,10 +233,10 @@ footer .column-link span,
 .social-link ul {
   list-style: none;
 }
+
 .column-link a,
 .social-link a {
   color: white;
-  text-decoration: none;
 }
 
 .column-link a {
@@ -259,23 +251,21 @@ footer .column-link span,
 .top-footer .social{
   width: 25%;
 }
+/* fine top footer */
 
+/* bottom footer */
 .bottom-footer {
-  padding-top: 5px;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .bottom-footer .row {
-  background-color: aquamarine;
   justify-content: space-between;
 }
 
 footer .logo,
 footer .registrati {
-  background-color: darkolivegreen;
-  border: 1px dotted black;
   padding: 5px;
 }
-
+/* fine bottom footer */
 /* fine FOOTER */
 
