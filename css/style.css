@@ -103,7 +103,7 @@ header .bottom-header {
 .t-head-row nav a {
   color: white;
   text-decoration: none;
-  padding: 0 20px;
+  margin: 0 20px;
 }
 
 header .btn-small {
