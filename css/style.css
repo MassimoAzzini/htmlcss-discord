@@ -1,0 +1,155 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, 
+footer {
+  color: white;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+  background-color: #23272a;
+  font-size: 0.7rem;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+/* HEIGHT-DEBUG da eliminare */
+.b-head-container {
+  height: 200px;
+}
+
+.container .boxed-img,
+.container .boxed-txt {
+  height: 400px;
+}
+
+.txt-up .container {
+  height: 1000px;
+}
+
+.top-footer > * {
+  height: 350px;
+}
+/* fine HEIGHT-DEBUG da eliminare */
+
+/* HEADER */
+header .top-header {
+  background-color: aquamarine;
+  padding: 10px 0;
+}
+
+header .bottom-header {
+  background-color: blue;
+  padding: 20px 0;
+}
+
+/* top-header */
+.t-head-row {
+  font-size: 0.7rem;
+  justify-content: space-between;
+}
+
+header .logo,
+header .menu,
+header .login {
+  background-color: orange;
+  border: 1px dotted black;
+  padding: 5px;
+}
+
+header .login {
+  text-align: right;
+}
+/* fine top-header */
+
+/* bottom-header */
+.b-head-container {
+  background-color: blueviolet;
+  border: 1px dotted black;
+  max-width: 1000px;
+  width: 70%;
+  min-width: 450px;
+  margin: 0 auto;
+}
+
+/* fine bottom-header */
+/* fine HEADER */
+
+/* MAIN */
+main section:nth-child(even) {
+  background-color: lightgray;
+}
+
+main section {
+  padding: 120px 0;
+}
+
+.boxed-img {
+  background-color: dodgerblue;
+  width: 60%;
+}
+
+.boxed-txt {
+  background-color: darkkhaki;
+  width: 40%;
+}
+
+.txt-up .container {
+  background-color: green;
+}
+/* fine MAIN */
+
+/* FOOTER */
+.top-footer {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #7289da;
+}
+
+.top-footer .row > nav {
+  flex-grow: 1;
+  background-color: darkorange;
+  border: 1px dotted black;
+}
+
+ .top-footer .social{
+  flex-grow: 1.5;
+  background-color: red;
+  border: 1px dotted black;
+ }
+
+ .bottom-footer {
+  padding-top: 5px;
+  padding-bottom: 20px;
+ }
+
+ .bottom-footer .row {
+  background-color: aquamarine;
+  justify-content: space-between;
+ }
+
+ footer .logo,
+ footer .registrati {
+   background-color: darkolivegreen;
+   border: 1px dotted black;
+   padding: 5px;
+ }
+
+/* fine FOOTER */
+
