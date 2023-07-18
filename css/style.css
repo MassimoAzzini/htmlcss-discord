@@ -140,7 +140,7 @@ header .bottom-header {
 
 /* MAIN */
 main section:nth-child(even) {
-  background-color: lightgray;
+  background-color: #f6f6f6;
 }
 
 main section {
